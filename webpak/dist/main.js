@@ -1,0 +1,1 @@
+(()=>{"use strict";console.log(10),console.log(20);let e=document.getElementById("root"),t=document.createElement("h1");t.innerText="hello world",t.classList.add("redText"),e.appendChild(t)})();
