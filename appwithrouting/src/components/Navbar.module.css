@@ -1,0 +1,19 @@
+.Nav{
+    height: 50px;
+    border: 1px solid black;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 550;
+    color: white;
+}
+h1{
+    color: red;
+
+}
