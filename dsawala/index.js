@@ -45,11 +45,60 @@
 
 // console.log(checkprime(36))
 
-function fact(n){
-    if(n==1){
-        return n
-    }
-   return n*fact(n-1)
-}
+// function fact(n){
+//     if(n==1){
+//         return n
+//     }
+//    return n*fact(n-1)
+// }
 
-console.log(fact(5))
+// console.log(fact(5))
+
+
+// let n= arr.length;
+// let k=10;
+// function twopointer(arr,n,k){
+
+//     let l=0;
+//     let r= n-1;
+
+//     while(l<r){
+//         let sum =arr[l]+arr[r];
+//         if(sum==k){
+//             return `${l} ${r}`
+//         }
+//         else if(sum<k){
+//             l++;
+//         }
+//         else if(sum>k){
+//                 r--
+//         }
+//     }
+//     return -1
+
+// }
+// function targetK(arr,n,k){
+//     for(let i=0; i<n; i++){
+//         for(let j=i+1; j<n; j++){
+//             if(arr[i]+arr[j]==k){
+//                 return `${i} ${j}`;
+//             }
+          
+//         }
+//     }
+//     return -1
+// }
+let arr = [-1,2,-2,3,4,5,6,7,8];
+function reverseArr(arr){
+let l=0;
+let r=arr.length-1;
+while(l<r){
+    let temp = arr[l];
+    arr[l]=arr[r];
+    arr[r]=temp;
+    l++;
+    r--
+}
+return arr
+}
+console.log(reverseArr(arr))

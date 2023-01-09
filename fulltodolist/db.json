@@ -1,0 +1,19 @@
+{
+  "todo": [
+    {
+      "id": 1,
+      "task": "learn react",
+      "status": false
+    },
+    {
+      "task": "helo",
+      "status": false,
+      "id": 2
+    },
+    {
+      "task": "harami",
+      "status": false,
+      "id": 3
+    }
+  ]
+}
